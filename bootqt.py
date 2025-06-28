@@ -1,9 +1,9 @@
-#Bootqt v2025.4.18
+#Bootqt v2025.6.28
 import sys
 import os
 import time
-from PyQt6.QtWidgets import QApplication, QWidget, QComboBox, QPushButton, QFileDialog, QVBoxLayout, QLabel, QMessageBox, QPlainTextEdit, QProgressBar
-from PyQt6.QtCore import QProcess, QProcessEnvironment
+from PySide6.QtWidgets import QApplication, QWidget, QComboBox, QPushButton, QFileDialog, QVBoxLayout, QLabel, QMessageBox, QPlainTextEdit, QProgressBar
+from PySide6.QtCore import QProcess, QProcessEnvironment
 
 global isFlatpak, text_imageselected, text_selectdrive, text_button_selectimagefile, text_selectimagefile, text_imagefile, text_button_preparedrive, text_status, text_ready, text_writing, text_error, text_errorwait, text_nodrive, text_noimage, text_areyousure, text_drivewillbewiped, text_imagewillbewritten, text_writestarted, text_writefinished, text_finished, text_copied
 
